@@ -1,0 +1,18 @@
+.form form{
+    background-color:#1a75bc;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    display: flex;
+    overflow: hidden;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .form form div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  

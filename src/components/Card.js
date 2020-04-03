@@ -1,14 +1,15 @@
 import React from "react";
+import '../style/Card.css'
 
 const Card = props => {
   return (
-    <div class="card">
-      <div class="card_img">
-        <img src="${props.img}" />
+    <div className="card">
+      <div className="card_img">
+        <img src={props.info.img}/>
       </div>
-      <div class="card_info">
-        <h3>${props.name}</h3>
-        <p>${props.shortDesc}</p>
+      <div className="card_info">
+        <h3>{props.info.name}</h3>
+        <p>{props.info.shortDesc}</p>
         <button>Ver mas</button>
       </div>
     </div>

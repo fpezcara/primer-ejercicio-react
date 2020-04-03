@@ -1,0 +1,46 @@
+.main {
+    background-color: #fed201;
+    margin: 20px auto;
+    width: 90%;
+    display: flex;
+    overflow: hidden;
+    color: #000;
+  }
+  
+  .main > div {
+    flex:1
+  }
+  
+  .main_info {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .main_info h2 {
+    color:#1a75bc;
+    font-size: 30px;
+  }
+  
+  .main_info h3 {
+    color: #777;
+      font-style: italic;
+      font-size: 1em;
+      text-transform: uppercase;
+      line-height: 1.8em;
+      font-weight: 600;
+      letter-spacing: 1px;
+  }
+  
+  .main_info p {
+    color: #000;
+      font-size: 1em;
+      line-height: 1.8em;
+      margin: 0;
+  }
+  
+  .main_img img {
+    width: 100%;
+    height: auto;
+  }
