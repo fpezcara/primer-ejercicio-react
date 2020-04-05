@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/Filtros.css"
+import "../style/Filtros.scss"
 
 const Filtros = () => {
     return(
@@ -51,7 +51,7 @@ const Filtros = () => {
           <input type="text" name="phone" placeholder=""/>
         </div>
 
-        <input type="submit" value="Filtrar"/>
+        <input type="submit" className="boton-filtrar" value="Filtrar"/>
 
       </form>
     </section>

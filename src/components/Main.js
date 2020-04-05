@@ -1,6 +1,6 @@
 import React from 'react';
 import mainImg from "../assets/main_img.jpg";
-import "../style/Main.css"
+import "../style/Main.scss"
 
 const Main = () => {
     return(
@@ -23,7 +23,7 @@ const Main = () => {
           </p>
         </div>
         <div className="main_img">
-          <img src={mainImg} />
+          <img alt="imagen de un gatito" src={mainImg} />
         </div>
         </section>
     )

@@ -1,9 +1,11 @@
 import React from 'react';
-import "../style/Footer.css"
+import "../style/Footer.scss"
+import Button from "./Button"
 
 const Footer = () => {
     return(
         <div className="footer">
+        <Button mensaje="Registrate" estilo={"footerButton"}/>
         <div className="footer_icons">
           <i className="fa fa-facebook"></i>
           <i className="fa fa-google-plus"></i>
